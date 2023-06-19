@@ -19,8 +19,8 @@ sys.path.insert(0, os.path.abspath("../src/"))
 # -- Project information -----------------------------------------------------
 
 project = "ai-python docs"
-copyright = "2022, Daniel Ciborowski"
-author = "Daniel Ciborowski"
+copyright = "2022, Surya Narayanan"
+author = "Surya Narayanan"
 
 # The full version, including alpha/beta/rc tags
 release = "0.1.0"
@@ -47,7 +47,7 @@ templates_path = ["_templates"]
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "kabootar-api/**", "kabootar-worker/**"]
 
 
 # -- Options for HTML output -------------------------------------------------
